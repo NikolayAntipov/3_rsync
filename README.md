@@ -15,15 +15,17 @@
 На проверку направить скриншот с командой и результатом ее выполнения
 
 
+Команда для выполнения: 
 
-Скриншот команды
-
-![1]()
+sudo rsync -a --progress --delete --exclude '.*' --checksum /home/nik /tmp/backup
 
 
-Результат
-![11]()
+Скриншот оригинальной папки
 
+![1](https://github.com/NikolayAntipov/3_rsync/blob/main/img/1sourcefiles.JPG)
+
+Скринщот папки с бэкапом
+![11](https://github.com/NikolayAntipov/3_rsync/blob/main/img/1distanationfiles.JPG)
 
 
 ---
@@ -43,13 +45,13 @@
 
 
 Скриншот настроек Cron
- ![Cron]()
+ ![Cron](https://github.com/NikolayAntipov/3_rsync/blob/main/img/2cron.JPG)
 
 
-Скрипт [backup_folders]()
+Исполняемый скрипт [backup_folders](https://github.com/NikolayAntipov/3_rsync/blob/main/img/backup_folder.sh)
 
  
-Скринщот и логов
- ![logs]()
+Скриншот и логов об успешном выполнении
+ ![logs](https://github.com/NikolayAntipov/3_rsync/blob/main/img/2logfile.JPG)
  
  
