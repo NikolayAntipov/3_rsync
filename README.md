@@ -13,9 +13,9 @@
 * Необходимо сделать так, чтобы rsync подсчитывал хэш-суммы для всех файлов, даже если их время модификации и размер идентичны в источнике и приемнике.
 
 * На проверку направить скриншот с командой и результатом ее выполнения  
-
-
-
+  
+  
+  
 **Команда для выполнения:**  
 
 sudo rsync -a --progress --delete --exclude '.*' --checksum /home/nik /tmp/backup
@@ -25,7 +25,7 @@ sudo rsync -a --progress --delete --exclude '.*' --checksum /home/nik /tmp/backu
 
 ![1](https://github.com/NikolayAntipov/3_rsync/blob/main/img/1sourcefiles.JPG)
 
-**Скринщот папки с бэкапом**
+**Скриншот папки с бэкапом**
 
 ![11](https://github.com/NikolayAntipov/3_rsync/blob/main/img/1distanationfiles.JPG)
 
@@ -47,6 +47,7 @@ sudo rsync -a --progress --delete --exclude '.*' --checksum /home/nik /tmp/backu
 
 
 **Скриншот настроек Cron**
+
 
  ![Cron](https://github.com/NikolayAntipov/3_rsync/blob/main/img/2cron.JPG)
 
